@@ -3,10 +3,10 @@ management:
     enabled: false
 spring:
     jpa:
-    hibernate:
-      ddl-auto: create
-      generate-ddl: true
-    show-sql: true
+      hibernate:
+        ddl-auto: create
+        generate-ddl: true
+      show-sql: true
     datasource:
       driverClassName: com.mysql.cj.jdbc.Driver
       username: root
